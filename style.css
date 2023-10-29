@@ -1,0 +1,105 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+body{
+    background-color: rgb(194,255,194);
+}
+.main{
+    position: relative;
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    border: 2px solid rgb(88,202,255);
+     border-radius:20px ;
+
+
+}
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family:  monospace;
+   font-weight: bold;
+
+
+}
+#shorten{
+    position: relative;
+    top: 35%;
+    left: 9%;
+    height: 45px;
+    width: 65px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+    font-size: large;
+ font-weight: bold;
+ font-family:  monospace;
+ color: white;
+ background-color: purple;
+
+}
+#shortten::hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 46%;
+    left: 15%;
+    height: 40px;
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: large;
+    font-family:  monospace;
+   font-weight: bold;
+    border: purple;
+    
+}
+
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+    
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+
+
+}
+#copy::hover{
+    background-color: aqua;
+}
+.main p{
+  /*  background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 10%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family:  monospace;
+    font-weight: bold;
+    color: rgb(238,255,140);
+
+}
